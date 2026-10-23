@@ -26,7 +26,7 @@ Avant de lancer la relecture, réunir :
 
 ## 2. Confier la relecture à un sous-agent
 
-Lancer un sous-agent de type `general` avec le brief de [references/reviewer-prompt.md](references/reviewer-prompt.md), rempli avec le dossier.
+Lancer un sous-agent généraliste (`general-purpose` dans Claude Code, `general` dans OpenCode) avec le brief de [references/reviewer-prompt.md](references/reviewer-prompt.md), rempli avec le dossier.
 
 - Lui donner **uniquement** la spec, le livrable et les moyens de vérifier. **Jamais** l'historique de la conversation, ni les explications de l'auteur sur ses choix : le relecteur doit juger le résultat, pas le raisonnement qui y a mené.
 - Si aucun sous-agent n'est disponible, faire la relecture soi-même avec le même brief, et l'indiquer en tête du rapport (« relecture faite par l'auteur, moins fiable »).
