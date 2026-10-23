@@ -5,7 +5,7 @@ Vidéo de démo du projet (lien ou fichier à ajouter ici).
 ## Déroulé de la démo
 
 ### 1. Le workflow dans n8n (1 min)
-- Ouvrir le workflow `Projet_n8n-Margot` dans n8n.
+- Ouvrir le workflow `Tri Gmail et Récap Hebdomadaire` dans n8n.
 - Montrer les 3 zones (Tri, Rattrapage, Récap du dimanche) et la sticky note « Specs ».
 
 ### 2. n8ncli dans le terminal (3 min)
@@ -20,8 +20,8 @@ Montrer le fichier `.workflow.ts` dans l'éditeur, puis faire une petite modific
 
 ```bash
 n8ncli status                            # le fichier apparaît comme modifié
-n8ncli diff "n8n/workflows/Sandbox/Projet_n8n-Margot.workflow.ts"
-n8ncli validate "n8n/workflows/Sandbox/Projet_n8n-Margot.workflow.ts"
+n8ncli diff "n8n/workflows/Sandbox/Tri Gmail et Récap Hebdomadaire.workflow.ts"
+n8ncli validate "n8n/workflows/Sandbox/Tri Gmail et Récap Hebdomadaire.workflow.ts"
 n8ncli push --dry-run                    # ce qui serait envoyé, sans rien changer
 n8ncli push                              # envoi réel
 ```

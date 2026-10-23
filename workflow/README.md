@@ -1,6 +1,6 @@
 # workflow/
 
-`Projet_n8n-Margot.workflow.ts` : le workflow n8n au format TypeScript (`@n8n/workflow-sdk`), tel qu'il est récupéré par `n8ncli pull`.
+`Tri Gmail et Récap Hebdomadaire.workflow.ts` : le workflow n8n au format TypeScript (`@n8n/workflow-sdk`), tel qu'il est récupéré par `n8ncli pull`.
 
 ## Ce que fait le workflow
 
@@ -24,7 +24,7 @@ La spec complète est dans la sticky note « Specs » du workflow.
 ## Utiliser ce fichier
 
 ```bash
-n8ncli validate workflow/Projet_n8n-Margot.workflow.ts
+n8ncli validate "workflow/Tri Gmail et Récap Hebdomadaire.workflow.ts"
 ```
 
 Les credentials (Gmail, OpenRouter, Gemini) sont référencés par leur ID et ne sont pas inclus : il faut les reconnecter dans son instance n8n.
